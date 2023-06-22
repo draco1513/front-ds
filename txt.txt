@@ -1,0 +1,3 @@
+ng g m views/reporte --routing
+ng g c views/reporte/riesgo
+material.io/tools/icons/?style=baseline
