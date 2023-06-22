@@ -1,0 +1,20 @@
+<p>riesgo works!</p>
+<h1>Table using JSON Server API</h1>
+<hr />
+
+<table>
+  <tr>
+    <th *ngFor="let col of columns">
+      {{ col }}
+    </th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td *ngFor="let col of index">
+      {{ user[col] }}
+    </td>
+  </tr>
+</table>
+
+<ul>
+  <li *ngFor="let user of users">{{ user }}</li>
+</ul>
